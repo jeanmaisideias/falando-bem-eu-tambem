@@ -259,8 +259,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .answer{padding:0 52px 24px 4px;color:#4B4545;font-size:16px}
 
 /* 10 fechamento */
-.final{text-align:center}
-.final-photo{width:clamp(170px,20vw,230px);aspect-ratio:1/1;border-radius:50%;margin:0 auto 34px;border:8px solid var(--white);box-shadow:0 30px 60px -36px rgba(65,65,65,.5);position:relative;z-index:2}
+.final{text-align:center;overflow:visible;z-index:1}
+.final-photo{width:clamp(240px,29vw,360px);aspect-ratio:1/1;border-radius:50%;margin:0 auto 34px;border:8px solid var(--white);box-shadow:0 30px 60px -36px rgba(65,65,65,.5);position:relative;z-index:2}
 .final h2{font-size:clamp(29px,3.7vw,48px);max-width:900px;margin:0 auto;font-weight:300}
 .final h2 b{font-weight:800}
 .final .lead{max-width:660px;margin:22px auto 0}
@@ -677,7 +677,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 
 <!-- ============ 10 · FECHAMENTO ============ -->
 <section class="sec final" aria-labelledby="t-final">
-  <div class="blob" style="background:var(--rose);opacity:.5;width:560px;height:500px;left:50%;top:-70px;margin-left:-280px;border-radius:55% 45% 50% 50% / 45% 55% 45% 55%"></div>
+  <div class="blob" style="background:var(--rose);opacity:.5;width:min(780px,125vw);height:min(720px,115vw);left:50%;top:-190px;transform:translateX(-50%);border-radius:50%"></div>
   <div class="wrap">
     <div class="final-photo media rv">
       <!-- FOTO EXISTENTE DA VANESCA: reaproveitada no fechamento; pode ser substituída depois -->
